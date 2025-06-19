@@ -1,0 +1,44 @@
+
+*{
+color:white;
+}
+
+/*for container*/
+.card {
+  background-color: black;         /* Black card background */
+  border: 1px solid #444;            /* Aesthetic gray border */
+  border-radius: 10px;               /* Smooth rounded edges */
+  color: white;                      /* White text */
+  padding: 10px;
+  height: 100%;   /* Keep all cards same height */
+  margin-bottom:15px;
+}
+
+.card img {
+  width: 100%;                   /* Full width of the card */
+  height: auto;                  /* Automatically adjusts height */
+  object-fit: contain;          /* Show entire image without cropping */
+  display: block;
+  margin: 0 auto;                /* Center the image */
+  padding: 10px;                 /* Optional: add padding if image touches card edges */
+}
+
+
+.card h3 {
+  color:white;
+  font-size: 1.2rem;                 /* Slightly smaller heading */
+  margin-top: 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;              /* Prevents breaking into multiple lines */
+  /*overflow: hidden;                 Hides overflow text */
+  /*text-overflow: ellipsis;           Adds "..." for long names */
+  white-space: normal;             /* Allows line break */
+  word-wrap: break-word;           /* Breaks long words if needed */
+  text-align: center;
+}
+
+.card p {
+  margin: 4px 0;                    /* Less gap between lines */
+  text-align: center;
+  font-size: 0.95rem;
+}
