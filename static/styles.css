@@ -1,0 +1,55 @@
+/* Universal */
+* {
+  color: white;
+}
+
+/* Navbar Brand Responsive */
+.navbar-brand {
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Heading Responsive */
+.heading {
+  font-size: clamp(1.2rem, 2vw + 0.8rem, 2rem);
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Card Styling */
+.card {
+  background-color: black;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  height: 100%;
+  margin-bottom: 15px;
+  max-width: clamp(200px, 90%, 280px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.card h3 {
+  font-size: clamp(0.9rem, 1vw + 0.8rem, 1.2rem);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.card p {
+  font-size: clamp(0.75rem, 0.5vw + 0.7rem, 1rem);
+  margin: 4px 0;
+  text-align: center;
+}
