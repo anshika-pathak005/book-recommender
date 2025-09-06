@@ -93,15 +93,21 @@ Follow these steps to run locally:
 
 ### 🔹 Home Page (Popular Books)
 
-![Screenshot1](LINK_TO_IMAGE)
+<p float="left">
+  <img src="img/home.jpg"/>
+</p>
 
 ### 🔹 Recommendation Page
 
-![Screenshot2](LINK_TO_IMAGE)
+<p float="left">
+  <img src="img/recommend.jpg"/>
+</p>
 
 ### 🔹 Contact Page
 
-![Screenshot3](LINK_TO_IMAGE)
+<p float="left">
+  <img src="img/contact.jpg"/>
+</p>
 
 ## 🚀 Deployment on Render
 
